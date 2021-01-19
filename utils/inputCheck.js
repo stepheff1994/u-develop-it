@@ -12,6 +12,7 @@ module.exports = function(obj, ...props) {
   });
 
   if (errors.length) {
+    console.log(errors)
     return {
       error: errors.join(' ')
     };
